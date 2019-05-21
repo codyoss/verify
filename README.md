@@ -2,6 +2,11 @@
 
 Package verify uses struct field tags to verify data.
 
+[![GoDoc](https://godoc.org/github.com/codyoss/verify?status.svg)](https://godoc.org/github.com/codyoss/verify)
+[![Build Status](https://cloud.drone.io/api/badges/codyoss/verify/status.svg)](https://cloud.drone.io/codyoss/verify)
+[![codecov](https://codecov.io/gh/codyoss/verify/branch/master/graph/badge.svg)](https://codecov.io/gh/codyoss/verify)
+[![Go Report Card](https://goreportcard.com/badge/github.com/codyoss/verify)](https://goreportcard.com/report/github.com/codyoss/verify)
+
 ## Tags supported
 
 - `minSize` -- specifies the minimum allowable length of a field. This can only be used on the following types: string,
