@@ -43,3 +43,8 @@ type Foo struct {
 
 1. verify only supports working with flat structures at the moment; it will not work with inner/embedded structs. Also,
 2. Because this package makes use of reflection the tags may only be used on exported fields.
+
+## TODO
+
+- maybe support 1 in limitations
+- blog post
