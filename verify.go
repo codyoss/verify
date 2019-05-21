@@ -22,9 +22,9 @@
 //		B string 	`verify:"maxSize=10"`
 //		C int8 		`verify:"min=3"`
 //		D float32 	`verify:"max=1.2"`
-//      E int64 	`verify:"min=3,max=7"`
+//		E int64 	`verify:"min=3,max=7"`
 //		F *bool 	`verify:"required"`
-//	}
+//  }
 //
 // There are currently a few limitation with this project. The first is verify only supports working with flat
 // structures at the moment; it will not work with inner/embedded structs. Also, because the package makes use of
