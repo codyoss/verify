@@ -44,7 +44,6 @@ type Foo struct {
 1. verify only supports working with flat structures at the moment; it will not work with inner/embedded structs. Also,
 2. Because this package makes use of reflection the tags may only be used on exported fields.
 
-## TODO
+## Blog Post
 
-- maybe support 1 in limitations
-- blog post
+I wrote a blog post about how to make your own struct field tags. [Check it out here!](https://medium.com/@codyoss/creating-your-own-struct-field-tags-in-go-c6c86727eff)
